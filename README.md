@@ -1,8 +1,7 @@
-# Arduino library for the Pololu DRV8835 Dual Motor Driver Shield
+# Arduino library for the Dual Motor Driveron the PiBot
 
 Version: 2.0.0 <br>
 Release date: 2016-08-18 <br>
-
 
 ## Summary
 This is a library for the DC PiBot motors.
@@ -47,7 +46,7 @@ the Library Manager to install this library:
 If this does not work, you can manually install the library:
 
 1. Download the
-   [latest release archive from GitHub](https://github.com/pololu/drv8835-motor-shield/releases)
+   [latest release archive from GitHub](https://github.com/pi-bot/DC_motor-driver/releases)
    and decompress it.
 2. Rename the folder "lps-arduino-xxxx" to "DRV8835MotorShield".
 3. Drag the "DRV8835MotorShield" folder into the "libraries" directory inside your
