@@ -1,4 +1,4 @@
-# Arduino library for the Dual Motor Driveron the PiBot
+# Arduino library for the PiBots dual motor driver
 
 Version: 2.0.0 <br>
 Release date: 2016-08-18 <br>
@@ -8,40 +8,10 @@ This is a library for the DC PiBot motors.
 It makes it simple to drive two brushed, DC motors.
 
 ## Getting started
+There is a script that automatically loads this library into the PiBots Arduino IDE. (See the config directory of the Pioneers repo for more details. 
 
-### Hardware
 
-
-#### Compatible Arduino boards
-
-This shield should work with all Arduino boards and clones that behave
-like a standard Arduino board. We have specifically tested this shield
-(using this Arduino library) with:
-
-* Arduino Uno R3
-* Arduino Leonardo
-* Arduino Mega 2560
-* Arduino Due
-* Arduino Duemilanove (ATmega328P)
-
-This library configures Timer 1 on the Uno R3, Leonardo, and
-Duemilanove to generate a 20 kHz PWM frequency for the motors. The
-library uses analogWrite on any board that does not use an ATmega168,
-ATmega328P or ATmega32U4. On the Mega 2560 and Due, analogWrite
-generates 489 Hz and 1 kHz PWM frequencies, respectively, with the
-default timer configuration.
-
-### Software
-
-If you are using version 1.6.2 or later of the
-[Arduino software (IDE)](https://www.arduino.cc/en/Main/Software), you can use
-the Library Manager to install this library:
-
-1. In the Arduino IDE, open the "Sketch" menu, select "Include Library", then
-   "Manage Libraries...".
-2. Search for "DRV8835MotorShield".
-3. Click the DRV8835MotorShield entry in the list.
-4. Click "Install".
+### Manual Install
 
 If this does not work, you can manually install the library:
 
@@ -71,7 +41,6 @@ to full speed reverse, and back to stopped. Then, it does the same
 with the other motor.
 
 ## Documentation
-
 - `void setM1Speed(int speed)` <br> Set speed and direction for
   motor 1. Speed should be between -400 and 400. The motors brake at 0
   speed. Positive speeds correspond to motor current flowing from M1A
