@@ -2,25 +2,16 @@
 
 Version: 2.0.0 <br>
 Release date: 2016-08-18 <br>
-[![Build Status](https://travis-ci.org/pololu/drv8835-motor-shield.svg?branch=master)](https://travis-ci.org/pololu/drv8835-motor-shield) <br>
-[www.pololu.com](https://www.pololu.com/)
+
 
 ## Summary
-
-This is a library for an
-[Arduino-compatible controller](https://www.pololu.com/arduino) that
-interfaces with the
-[Pololu DRV8835 Dual Motor Driver Shield for Arduino](https://www.pololu.com/catalog/product/2511).
+This is a library for the DC PiBot motors.
 It makes it simple to drive two brushed, DC motors.
 
 ## Getting started
 
 ### Hardware
 
-The
-[Pololu DRV8835 Dual Motor Driver Shield for Arduino](https://www.pololu.com/catalog/product/2511)
-can be purchased on Pololu's website. Before continuing, careful
-reading of the product page is recommended.
 
 #### Compatible Arduino boards
 
