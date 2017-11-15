@@ -1,4 +1,4 @@
-#include <DRV8835MotorShield.h>
+#include <DC_motor_driver.h>
 
 /*
  * This example uses the DRV8835MotorShield library to drive each motor with the
@@ -9,7 +9,7 @@
 
 #define LED_PIN 13
 
-DRV8835MotorShield motors;
+DC_motor_driver motors;
 
 void setup()
 {
