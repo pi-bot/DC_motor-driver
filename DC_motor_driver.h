@@ -2,12 +2,12 @@
 #define DC_motor_driver_h
 
 #if defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__) || defined (__AVR_ATmega32U4__)
-  #define DRV8835MOTORSHIELD_USE_20KHZ_PWM
+  #define DC_motor_driver_USE_20KHZ_PWM
 #endif
 
 #include <Arduino.h>
 
-class DRV8835MotorShield
+class DC_motor_driver
 {
   public:
     static void setM1Speed(int speed);
