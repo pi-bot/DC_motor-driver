@@ -1,4 +1,4 @@
-DRV8835MotorShield KEYWORD1
+DC_motor_driver KEYWORD1
 
 flipM1 KEYWORD2
 flipM2 KEYWORD2
