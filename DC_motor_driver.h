@@ -1,5 +1,5 @@
-#ifndef DRV8835MotorShield_h
-#define DRV8835MotorShield_h
+#ifndef DC_motor_driver_h
+#define DC_motor_driver_h
 
 #if defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__) || defined (__AVR_ATmega32U4__)
   #define DRV8835MOTORSHIELD_USE_20KHZ_PWM
