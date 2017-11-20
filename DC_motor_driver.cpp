@@ -1,6 +1,6 @@
 #include "DC_motor_driver.h"
-const unsigned char DC_motor_driver::_M1DIR = 7;
-const unsigned char DC_motor_driver::_M2DIR = 8;
+const unsigned char DC_motor_driver::_M1DIR = 8;
+const unsigned char DC_motor_driver::_M2DIR = 7;
 const unsigned char DC_motor_driver::_M1PWM = 9;
 const unsigned char DC_motor_driver::_M2PWM = 10;
 boolean DC_motor_driver::_flipM1 = false;
